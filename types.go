@@ -1,4 +1,4 @@
-package gozk
+package zktecoGo
 
 import (
 	"fmt"

@@ -1,6 +1,6 @@
 # ZKTECO
 
-Get inspired from [this project](https://github.com/canhlinh/gozk)
+Get inspired from [this project](https://github.com/canhlinh/zktecoGo)
 
 ZKTECO is a library to help gopher interact with ZK fingerprint machine
 
@@ -30,7 +30,7 @@ import (
 )
 
 func main() {
-	zkSocket := gozk.NewZK("192.168.0.201", 4370, 0, gozk.DefaultTimezone)
+	zkSocket := zktecoGo.NewZK("192.168.0.201", 4370, 0, zktecoGo.DefaultTimezone)
 	if err := zkSocket.Connect(); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-package gozk
+package zktecoGo
 
 const (
 	USHRT_MAX = 65535
